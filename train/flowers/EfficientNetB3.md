@@ -41,9 +41,9 @@ def load_images_from_folders(base_path, image_size=(300, 300)):
 
 
 ```python
-#base_path = 'dataset(imgs)/train_animals_300x300'
-base_path = 'dataset(imgs)/train_flowers_300x300'
-#base_path = 'dataset(imgs)/train_cars_aug_300x300'
+#base_path = 'train_animals_300x300'
+base_path = 'train_flowers_300x300'
+#base_path = 'train_cars_aug_300x300'
 data = load_images_from_folders(base_path)
 ```
 
@@ -265,9 +265,9 @@ def load_images_from_folders(base_path, image_size=(300, 300)):
 
 
 ```python
-test_base_path = 'dataset(imgs)/Test_flowers_aug_300x300'
-#test_base_path = 'dataset(imgs)/Test_animals_300x300'
-#test_base_path = 'dataset(imgs)/Test_cars_aug_300x300'
+test_base_path = 'Test_flowers_aug_300x300'
+#test_base_path = 'Test_animals_300x300'
+#test_base_path = 'Test_cars_aug_300x300'
 test_images, test_labels, label_map = load_images_from_folders(test_base_path, image_size=(300, 300))
 print(test_images.shape)
 ```
