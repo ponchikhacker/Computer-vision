@@ -226,10 +226,8 @@ def load_images_from_folders(base_path, image_size=(224, 224)):
     label_map = {} 
     current_label_index = 0
 
-    
     for label in os.listdir(base_path):
         folder_path = os.path.join(base_path, label)
-        
         
         if os.path.isdir(folder_path):
             if label not in label_map:
@@ -239,14 +237,11 @@ def load_images_from_folders(base_path, image_size=(224, 224)):
             for filename in os.listdir(folder_path):
                 file_path = os.path.join(folder_path, filename)
                 
-                
                 if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp')):
                     try:
-                        # Загружаем изображение
                         img = Image.open(file_path).convert('RGB')
                         #img = resize_with_padding(img, )
                         img_array = np.array(img)
-                        
                         
                         images.append(img_array)
                         labels.append(label_map[label])
@@ -273,7 +268,7 @@ print(test_images.shape, test_labels.shape)
 
 
 ```python
-#model = tf.keras.models.load_model('Model_8.0_VGG.h5')
+#model = tf.keras.models.load_model('Model_VGG16_flowers.h5')
 
 predictions = model.predict(test_images)
 
