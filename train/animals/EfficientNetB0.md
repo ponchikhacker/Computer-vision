@@ -281,6 +281,7 @@ print(test_images.shape)
 
 
 ```python
+#model = tf.keras.models.load_model('Model_EffB0_animals.h5')
 predictions = model.predict(test_images)
 predicted_classes = np.argmax(predictions, axis=1)
 
