@@ -316,6 +316,5 @@ for i in range(len(test_images)):
 
 <img width="450" height="462" alt="output_13_85" src="https://github.com/user-attachments/assets/021a5f98-a747-4307-8424-73faa8e2844a" />
 
-<img width="450" height="462" alt="output_13_83" src="https://github.com/user-attachments/assets/12ee8fd5-ad57-4cbb-b454-04797221de70" />
 
-```
+<img width="450" height="462" alt="output_13_81" src="https://github.com/user-attachments/assets/59173656-8275-43ef-9216-23fae3c2dce4" />
