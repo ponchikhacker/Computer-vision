@@ -96,7 +96,7 @@ early_stopping = EarlyStopping(
     restore_best_weights=True
 )
 
-# NN with EfficientNetB3
+# NN with EfficientNetB0
 base_model = tf.keras.applications.EfficientNetB0(
     include_top=False,
     weights="imagenet",
