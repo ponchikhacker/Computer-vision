@@ -321,7 +321,3 @@ for i in range(len(test_images)):
 <img width="450" height="462" alt="output_13_79" src="https://github.com/user-attachments/assets/f4cdc5cb-019d-42ca-8bf2-5e88b4f28450" />
 
 
-```python
-
-```
-
