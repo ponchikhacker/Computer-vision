@@ -265,7 +265,7 @@ def load_images_from_folders(base_path, image_size=(300, 300)):
 
 ```python
 test_base_path = 'Test_flowers_aug_300x300'
-#test_base_path = 'Test_animals_300x300'
+#test_base_path = 'Test_animals_aug_300x300'
 #test_base_path = 'Test_cars_aug_300x300'
 test_images, test_labels, label_map = load_images_from_folders(test_base_path, image_size=(300, 300))
 print(test_images.shape)
