@@ -1,7 +1,6 @@
 ```python
 import os
 import numpy as np 
-import pandas as pd
 import matplotlib.pyplot as plt
 from PIL import Image
 
@@ -41,9 +40,9 @@ def load_images_from_folders(base_path, image_size=(224, 224)):
 
 
 ```python
-#base_path = 'dataset(imgs)/train_animals_aug_224x224'
-#base_path = 'dataset(imgs)/train_flowers_aug_224x224'
-base_path = 'dataset(imgs)/train_cars_aug_224x224'
+#base_path = 'train_animals_224x224'
+#base_path = 'train_flowers_224x224'
+base_path = 'train_cars_aug_224x224'
 data = load_images_from_folders(base_path)
 ```
 
@@ -265,9 +264,9 @@ def load_images_from_folders(base_path, image_size=(224, 224)):
 
 
 ```python
-#test_base_path = 'dataset(imgs)/Test_flowers_aug_224x224'
-#test_base_path = 'dataset(imgs)/Test_animals_aug_224x224'
-test_base_path = 'dataset(imgs)/Test_cars_aug_224x224'
+#test_base_path = 'Test_flowers_aug_224x224'
+#test_base_path = 'Test_animals_aug_224x224'
+test_base_path = 'Test_cars_aug_224x224'
 test_images, test_labels, label_map = load_images_from_folders(test_base_path, image_size=(224, 224))
 print(test_images.shape)
 ```
