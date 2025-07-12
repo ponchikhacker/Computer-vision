@@ -312,7 +312,6 @@ for i in range(len(test_images)):
     plt.title(f"True: {true_label_name}, Predicted: {predicted_label_name}")
     plt.show()
 ```
-
 <img width="539" height="462" alt="output_13_52" src="https://github.com/user-attachments/assets/a4f7e705-5331-4b44-988f-1668beb5262e" />
 
 
@@ -323,5 +322,3 @@ for i in range(len(test_images)):
 
 
 <img width="450" height="462" alt="output_13_109" src="https://github.com/user-attachments/assets/21a30dbe-56dc-4e3b-b4b1-de8654c0ad4d" />
-
-```python
