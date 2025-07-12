@@ -41,8 +41,8 @@ def load_images_from_folders(base_path, image_size=(224, 224)):
 
 
 ```python
-base_path = 'train_animals_aug_224x224'
-#base_path = 'train_flowers_aug_224x224'
+base_path = 'train_animals_224x224'
+#base_path = 'train_flowers_224x224'
 #base_path = 'train_cars_aug_224x224'
 data = load_images_from_folders(base_path)
 ```
