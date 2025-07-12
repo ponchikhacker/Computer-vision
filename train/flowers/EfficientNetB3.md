@@ -326,5 +326,3 @@ for i in range(len(test_images)):
 
 
 ```python
-
-```
