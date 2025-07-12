@@ -258,7 +258,6 @@ def load_images_from_folders(base_path, image_size=(224, 224)):
                         img_array = np.array(img)
                         images.append(img_array)
                         labels.append(label_map[label])
-                        
                     except Exception as e:
                         print(f"Error loading image {file_path}: {e}")
 
