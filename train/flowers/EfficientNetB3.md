@@ -43,7 +43,7 @@ def load_images_from_folders(base_path, image_size=(300, 300)):
 ```python
 #base_path = 'dataset(imgs)/train_animals_300x300'
 base_path = 'dataset(imgs)/train_flowers_300x300'
-#base_path = 'dataset(imgs)/train_cars_224x224_aug'
+#base_path = 'dataset(imgs)/train_cars_aug_300x300'
 data = load_images_from_folders(base_path)
 ```
 
