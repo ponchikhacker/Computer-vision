@@ -279,7 +279,7 @@ print(test_images.shape)
 
 ```python
 #from tensorflow.keras.models import load_model
-#model = load_model('Model_7.0_Eff.h5')
+#model = load_model('Model_EffB3_flowers.h5')
 
 predictions = model.predict(test_images)
 predicted_classes = np.argmax(predictions, axis=1)
